@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b666a832-784e-4ad2-9d5e-de6f821ed4b1" name="Default Changelist" comment="pl">
+      <change afterPath="$PROJECT_DIR$/api/dbconn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/device.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/devssh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/registered.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/weather.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/email.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/response/device.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/Index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/allrouter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/device.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/devssh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/initdb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/registered.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/weather.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/device.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/dbcurd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/readyaml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sendemail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/ssh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/weather.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93a0f47b-2968-4857-8f6a-da5bec7023fb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93a0f47b-2968-4857-8f6a-da5bec7023fb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/global/global.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initialize/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/initialize/gorm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/device.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/device.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dbconn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/excel.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/excel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试.xlsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1o93iHtoRXqPI47YiAlx33zANt4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routers" />
+      <recent name="$PROJECT_DIR$/utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gin-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="gin-project" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="gin-project" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="gin-project" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pl" />
+    <option name="LAST_COMMIT_MESSAGE" value="pl" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.io,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="278" key="#Notifications" timestamp="1617671751452">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="453" y="278" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1617671751452" />
+    <state x="453" y="295" key="#Notifications/0.25.1440.875@0.25.1440.875" timestamp="1617621518422" />
+    <state x="209" y="0" width="1071" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616601211498">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="209" y="0" width="1071" height="900" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1616601211498" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1613986867053" />
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1612685229396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1612685229396" />
+    <state x="601" y="167" key="EnvironmentVariablesDialog" timestamp="1616564067894">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="601" y="167" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1616564067894" />
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom" timestamp="1613986820893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613986820893" />
+    <state width="1493" height="298" key="GridCell.Tab.0.center" timestamp="1613986820893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613986820893" />
+    <state width="1493" height="298" key="GridCell.Tab.0.left" timestamp="1613986820893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613986820893" />
+    <state width="1493" height="298" key="GridCell.Tab.0.right" timestamp="1613986820893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="298" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613986820893" />
+    <state x="229" y="109" key="SettingsEditor" timestamp="1617621467914">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617621084986" />
+    <state x="229" y="109" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1617621467914" />
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup" timestamp="1616401097188">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="404" y="158" width="670" height="741" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1616401097188" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1613985736447" />
+    <state x="450" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1616564293419">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="291" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1616564293419" />
+  </component>
+</project>

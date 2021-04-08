@@ -1,0 +1,26 @@
+# redis configuration
+redis:
+  db: 0
+  addr: '127.0.0.1:6379'
+  password: ''
+
+# mysql configuration
+mysql:
+  path: '127.0.0.1:3306'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  db-name: 'Gin_test'
+  username: 'root'
+  password: 'leisunny'
+  max-idle-conns: 10
+  max-open-conns: 100
+  log-mode: false
+  log-zap: ""
+
+# email configuration
+email:
+  port: 465
+  from: 'leisunny88@163.com'
+  host: 'smtp.163.com'
+  is-ssl: true
+  secret: 'plaizss1314'
+  nickname: 'leisunny'
