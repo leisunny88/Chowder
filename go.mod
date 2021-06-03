@@ -8,6 +8,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
+	github.com/gosnmp/gosnmp v1.31.0 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jinzhu/gorm v1.9.16
 	github.com/jinzhu/now v1.1.1 // indirect
@@ -16,10 +17,12 @@ require (
 	github.com/shirou/gopsutil/v3 v3.21.2
 	github.com/spf13/viper v1.7.1
 	github.com/tealeg/xlsx v1.0.5
+	github.com/vmware/govmomi v0.25.0 // indirect
 	golang.org/x/crypto v0.0.0-20210317152858-513c2a44f670
 	golang.org/x/sys v0.0.0-20210320140829-1e4c9ba3b0c4 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/yaml.v2 v2.3.0
 	gorm.io/driver/mysql v1.0.5
 	gorm.io/gorm v1.21.3
+	inet.af/netaddr v0.0.0-20210523191804-d57edf19c517
 )
