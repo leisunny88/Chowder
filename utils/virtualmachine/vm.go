@@ -404,15 +404,15 @@ func (vw *VmWare) getLibraryItem(ctx context.Context, rc *rest.Client) (*library
 
 func (vw *VmWare) CreateVM() {
 	createData := CreateMap{
-		TempName:    "template-rehl7.7",
-		Datacenter:  "Datacenter",
-		Cluster:     "AsiaLink-Production",
-		Host:        "192.168.100.201",
-		Resources:   "测试虚机",
-		Storage:     "local-esxi-201",
-		VmName:      "测试机器one",
-		SysHostName: "test",
-		Network:     "vlan80",
+		TempName:    "xxx",
+		Datacenter:  "xxx",
+		Cluster:     "xxx",
+		Host:        "xxx",
+		Resources:   "xxx",
+		Storage:     "xxx",
+		VmName:      "xxx",
+		SysHostName: "xxx",
+		Network:     "xxx",
 	}
 	_, templateList, err := vw.GetAllVmClient()
 	if err != nil {
@@ -571,15 +571,15 @@ func (vw *VmWare) CreateVM() {
 
 func (vw *VmWare) CloneVM() {
 	cloneData := CreateMap{
-		TempName:    "template-rehl7.7",
-		Datacenter:  "Datacenter",
-		Cluster:     "AsiaLink-Production",
-		Host:        "192.168.100.201",
-		Resources:   "测试虚机",
-		Storage:     "local-esxi-201",
-		VmName:      "测试机器",
-		SysHostName: "test",
-		Network:     "vlan80",
+		TempName:    "xxx",
+		Datacenter:  "xxx",
+		Cluster:     "xxx",
+		Host:        "xxx",
+		Resources:   "xxx",
+		Storage:     "xxx",
+		VmName:      "xxx",
+		SysHostName: "xxx",
+		Network:     "xxx",
 	}
 	vmList, templateList, err := vw.GetAllVmClient()
 	if err != nil {
@@ -828,7 +828,7 @@ func (vw *VmWare) MigrateVM() {
 	var hostName string
 	var hostRef types.ManagedObjectReference
 	for _, host := range hostList {
-		if host.Name == "192.168.100.201" {
+		if host.Name == "xxxx" {
 			hostName = host.Name
 			hostRef = host.HostSelf
 		}
